@@ -12,17 +12,29 @@ html, body{
     6. border radius */
 
 /* عند الحاجه w3schools قم بالاستعانه بموقع  */
+.flax {display: flex; 
+height: 100%; 
+ }
+
+ .div1 {height: 100%;
+width: 100%;}
 
 .sidebar{
     /* pxالعرض هنا يجب ان يكون 120 */
+width: 120px;
+background-color: cornflowerblue;
 }
+.w1:hover {color: white;}
 
 .header{
     /* pxالطول هنا يجب ان يكون 80 */
-}
+height: 20%;
+background-color: aqua;}
+
 
 .main{
-
+    height: 80%;
+background-color:gray;
 }
 
 a{
